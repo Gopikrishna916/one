@@ -73,8 +73,8 @@
 </head>
 <body>
     <header>
-        <h1>Engineering College</h1>
-        <p>Building the Future, One Engineer at a Time</p>
+        <h1>CHALAPATHI INSTITUTE OF ENGNEERING AND TECHNOLOGY</h1>
+        <p>AUTONOMUS GUNTUR AT LAM</p>
     </header>
     <nav>
         <a href="#">Home</a>
@@ -94,7 +94,7 @@
                 <p>Learn cutting-edge technology, programming, and software development.</p>
             </div>
             <div class="course">
-                <h3>Mechanical Engineering</h3>
+                <h3>Civil Engineering</h3>
                 <p>Explore the world of machines, manufacturing, and innovation.</p>
             </div>
             <div class="course">
