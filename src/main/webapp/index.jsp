@@ -1,26 +1,37 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>MyJavaAPP</title>
+    <title>DevOps Course Registration</title>
 </head>
-<body>
-	
-	<h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">THIS IS APP DEPLOYMENT USING TOMCAT</h1>
-	<h1 style="color: green; font-size: 40px;" align="center">234567890</h1>
-	<h1 style="color: pink; font-size: 40px;" align="center">WE ARE SUCCESSFULLY DEPLOYED APPLICATION</h1>
-	<h1 style="color: grey; font-size: 40px;" align="center">we are done with ci/cd</h1>
-	<h1 style="color: blue; font-size: 40px;" align="center">we integraded nexus also/cd</h1>
-	<h1 style="color: black; font-size: 40px;" align="center">we are done with nexus also</h1>
-	<p style="color: red; font-size:120px;" align="center"> developed by kummari gopi krishna</p>
-	<h1>The  HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code. The  element can also be used with other languages, such as WebGL's GLSL shader programming language and JSON.</h1>
-	
-	
-	
-	
-	
-	
-	
-	
-	
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; color: #333;">DevOps Course Registration Form</h2>
+        <form>
+            <label for="fullName" style="display: block; margin-bottom: 8px; font-weight: bold;">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;" required>
+            
+            <label for="email" style="display: block; margin-bottom: 8px; font-weight: bold;">Email Address:</label>
+            <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;" required>
+            
+            <label for="phone" style="display: block; margin-bottom: 8px; font-weight: bold;">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;" required>
+            
+            <label for="courseType" style="display: block; margin-bottom: 8px; font-weight: bold;">Course Type:</label>
+            <select id="courseType" name="courseType" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            
+            <label for="startDate" style="display: block; margin-bottom: 8px; font-weight: bold;">Preferred Start Date:</label>
+            <input type="date" id="startDate" name="startDate" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;" required>
+            
+            <label for="comments" style="display: block; margin-bottom: 8px; font-weight: bold;">Comments/Questions:</label>
+            <textarea id="comments" name="comments" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;" rows="4"></textarea>
+            
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer;">Register</button>
+        </form>
+    </div>
 </body>
 </html>
+
