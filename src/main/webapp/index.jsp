@@ -11,7 +11,7 @@
 	<h1 style="color: grey; font-size: 40px;" align="center">we are done with ci/cd</h1>
 	<h1 style="color: blue; font-size: 40px;" align="center">we integraded nexus also/cd</h1>
 	<h1 style="color: black; font-size: 40px;" align="center">we are done with nexus also</h1>
-	<p style="color: red; font-size:120px;"> developed by kummari gopi krishna</p>
+	<p style="color: red; font-size:120px;" align="center"> developed by kummari gopi krishna</p>
 	
 	
 	
