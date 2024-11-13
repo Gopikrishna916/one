@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Engineering College Demo</title>
+    <title>Engineering College Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #e9ecef;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #007bff;
+            background-color: #0056b3;
             color: white;
             padding: 20px;
             text-align: center;
@@ -29,6 +29,20 @@
         nav a:hover {
             color: #007bff;
         }
+        .banner {
+            background: url('https://example.com/college-banner.jpg') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -37,27 +51,44 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .about {
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        .programs {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .program {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            width: 30%;
             text-align: center;
             margin-bottom: 20px;
         }
-        .about h2 {
-            color: #333;
+        .program h3 {
+            color: #0056b3;
         }
-        .courses {
+        .faculty {
             display: flex;
-            justify-content: space-around;
             flex-wrap: wrap;
+            justify-content: space-around;
         }
-        .course {
-            background-color: #f1f1f1;
+        .faculty-member {
+            background-color: #f8f9fa;
             padding: 15px;
             border-radius: 5px;
             width: 30%;
             margin-bottom: 20px;
             text-align: center;
         }
-        .course h3 {
+        .faculty-member h4 {
             color: #007bff;
         }
         footer {
@@ -73,38 +104,39 @@
 </head>
 <body>
     <header>
-        <h1>CHALAPATHI INSTITUTE OF ENGNEERING AND TECHNOLOGY</h1>
-        <p>AUTONOMUS GUNTUR AT LAM</p>
+        <h1>Engineering College Portfolio</h1>
+        <p>Showcasing Our Academic Excellence and Achievements</p>
     </header>
     <nav>
         <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Courses</a>
-        <a href="#">Admissions</a>
+        <a href="#">About</a>
+        <a href="#">Programs</a>
+        <a href="#">Faculty</a>
+        <a href="#">Research</a>
         <a href="#">Contact</a>
     </nav>
-    <div class="container">
-        <div class="about">
-            <h2>Welcome to Our Engineering College</h2>
-            <p>We offer world-class education in engineering and technology, preparing students for a bright future.</p>
-        </div>
-        <div class="courses">
-            <div class="course">
-                <h3>Computer Science Engineering</h3>
-                <p>Learn cutting-edge technology, programming, and software development.</p>
-            </div>
-            <div class="course">
-                <h3>Civil Engineering</h3>
-                <p>Explore the world of machines, manufacturing, and innovation.</p>
-            </div>
-            <div class="course">
-                <h3>Electrical Engineering</h3>
-                <p>Dive into the science of power, electronics, and electromagnetism.</p>
-            </div>
-        </div>
+    <div class="banner">
+        <h1>Welcome to Our College</h1>
     </div>
-    <footer>
-        <p>&copy; 2024 Engineering College. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Our engineering college is committed to providing top-quality education and research opportunities. We strive to create an environment that fosters innovation, creativity, and leadership.</p>
+        </div>
+        <div class="section">
+            <h2>Our Programs</h2>
+            <div class="programs">
+                <div class="program">
+                    <h3>Computer Science</h3>
+                    <p>Specializing in software engineering, artificial intelligence, and data science.</p>
+                </div>
+                <div class="program">
+                    <h3>Mechanical Engineering</h3>
+                    <p>Focusing on robotics, thermal systems, and advanced manufacturing.</p>
+                </div>
+                <div class="program">
+                    <h3>Electrical Engineering</h3>
+                    <p>Emphasizing electronics, communication, and renewable energy.</p>
+                </div>
+            </div>
+        </
